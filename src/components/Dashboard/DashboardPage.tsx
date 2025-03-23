@@ -1,6 +1,6 @@
 import { useStore } from '@nanostores/react';
 import { useEffect, useState } from 'react';
-import { cn } from '../../../editor/utils/classname';
+import { cn } from "../../utils/classname";
 import { useParams } from '../../hooks/use-params';
 import { useToast } from '../../hooks/use-toast';
 import { httpGet } from '../../lib/http';
